@@ -38,7 +38,12 @@ The score will depend of:
 
 The game could be played alone or against other users on the network. In one player mode, a solver should be integrated to help the user and show the best result at end. In multiple player mode a leader board will be displayed.
 
-The detailed game play will be discussed with the project mentor but the inspiration of this game came from [Mathador](https://www.mathador.fr/).
+The detailed game play will be discussed with the project mentor but following is a non-exhaustive list of inspiration:
+
+- [https://www.mathador.fr/](https://www.mathador.fr/)
+- [https://www.solumaths.com/en/play-app-math-games-kids/countdown](https://www.solumaths.com/en/play-app-math-games-kids/countdown)
+- [https://www.logicieleducatif.fr/math/calcul/compte_est_bon_junior.php](https://www.logicieleducatif.fr/math/calcul/compte_est_bon_junior.php)
+
 
 *Tangram Activity*<br>
 The Tangram activity will be an activity to play to the traditional [Tangram game](https://en.wikipedia.org/wiki/Tangram).
@@ -133,7 +138,7 @@ The detailed features for this activity will be discussed with the project mento
 - [https://www.speechi.net/en/home/assess/free-interactive-voting-system-mobile-application/](https://www.speechi.net/en/home/assess/free-interactive-voting-system-mobile-application/)
 - [https://www.voxvote.com/](https://www.voxvote.com/) 
 
-**Project Task**<br>
+**Project Tasks**<br>
 These new activities should provide unique Sugarizer features:
 
 - Sugarizer look & feel: use of Sugar toolbar and palette
@@ -173,7 +178,7 @@ Sugarizer School Portal is a new tool in the Sugarizer family to provide a way, 
 Under the hood, Sugarizer School Portal will be a Kubernetes server that should be able to create/manage on demand new Sugarizer Server docker instances.
 A web interface will be also created to let users ask for a new deployment. Finally, a dashboard will be created to let super administrator follow number of deployments and usage of each deployment to be able to resize the infrastructure if need.
 
-**Project Task**<br>
+**Project Tasks**<br>
 
 - Create a Kubernetes infrastructure that could deploy on demand Sugarizer Server instance
 - Create a set of scripts to handle deployment/removal of a new Docker instance
