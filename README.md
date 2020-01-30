@@ -40,8 +40,6 @@ The score will depend of:
 
 The game could be played alone or against other users on the network. In one-player mode, a solver should be integrated to help the user and show the best result at the end. In multiple-players mode, a leader board will be displayed.
 
-The detailed game play will be discussed with the project mentor but the source of inspiration for this game is [Mathador](https://www.mathador.fr/).
-
 The detailed game play will be discussed with the project mentor but following is a non-exhaustive list of inspiration:
 
 - [https://www.mathador.fr/](https://www.mathador.fr/)
