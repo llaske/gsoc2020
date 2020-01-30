@@ -10,23 +10,23 @@ Sugarizer GSOC2020 projects
 
 **Description**
 
-The objective of this project is to develop new Sugarizer activities requested by teachers from [Sugarizer deployment in Saint-Ouen](https://wiki.sugarlabs.org/go/Sugarizer_Saint-Ouen_deployment).
+The goal of this project is to develop new Sugarizer activities needed by teachers from [Sugarizer deployment in Saint-Ouen](https://wiki.sugarlabs.org/go/Sugarizer_Saint-Ouen_deployment).
 
-Specifically, the objective of this project is to develop two new games:
+Specifically, the goal of this project is to develop two new games:
 
 - A Mind Math activity
 - A Tangram activity
 
 *Mind Math Activity*
 
-The Mind Math activity will be a game to practice mathematic in a different way. More precisely, the goal is to arrive at a chosen number using the four basic arithmetic operations (+, -, ×, ÷) applied to five numbers chosen randomly.
+The Mind Math activity will be a game to practice mathematics in a different way.  The student is given five random numbers and should use the four basic arithmetic operations (+, -, ×, ÷) to build an operation that will result in the given output.
 
 Two levels of difficulty will be proposed:
 
 - an easy level with a chosen number between 10 and 69
 - a medium level with a chosen number between 0 and 99
 
-The difficulty level could also be increased by asking for mandatory operations.
+The difficulty level could also be increased by making some operations mandatory.
 
 The user will have five random numbers (one between 1-4, one between 1-6, one between 1-8, one between 1-12 and one between 1-20) and 4 slots to find the chosen number. The user will be able to undo an operation.
 
@@ -36,28 +36,28 @@ The score will depend of:
 
 - Number of slots used (more is better)
 - Bonus when all four arithmetic operations are used
-- Bonus depending of time to solve the challenge
+- Bonus depending on the time spent to solve the challenge
 
-The game could be played alone or against other users on the network. In one player mode, a solver should be integrated to help the user and show the best result at end. In multiple player mode a leader board will be displayed.
+The game could be played alone or against other users on the network. In one-player mode, a solver should be integrated to help the user and show the best result at the end. In multiple-players mode, a leader board will be displayed.
 
-The detailed game play will be discussed with the project mentor but the inspiration of this game came from [Mathador](https://www.mathador.fr/).
+The detailed game play will be discussed with the project mentor but the source of inspiration for this game is [Mathador](https://www.mathador.fr/).
 
 *Tangram Activity*
 
-The Tangram activity will be an activity to play to the traditional [Tangram game](https://en.wikipedia.org/wiki/Tangram).
+The Tangram activity will be an activity to play the traditional [Tangram game](https://en.wikipedia.org/wiki/Tangram).
 
-The Tangram activity will present to the right of the screen a set of Tangram pieces and to the left of the screen a canvas where the user should form a specific shape using these pieces.
+The Tangram activity will present a set of Tangram pieces to the right of the screen and a canvas where the user should form a specific shape using these pieces to the left of the screen.
 
 ![](images/tangram.png)
 
 Two levels of difficulty could be proposed:
 
-- an easy level where the user know where each piece should be set on the shape and just have to move/rotate the right piece to the right place
+- an easy level where the user knows where each piece should be set on the shape and just have to move/rotate the right piece to the right place
 - a medium level where the user should guess where each piece should be set and move/rotate it to the right place
 
-The difficulty level could also be related to the complexity of the shape.
+The difficulty level could also depend on the complexity of the shape.
 
-The detailed game play will be discussed with the project mentor but following is a non-exhaustive list of inspiration:
+The detailed game play will be discussed with the project mentor but here is a non-exhaustive list of inspiration:
 
 - [http://activities.sugarlabs.org/en/sugar/addon/4186](http://activities.sugarlabs.org/en/sugar/addon/4186)
 - [https://freegames.org/tangrams/](https://freegames.org/tangrams/)
@@ -71,7 +71,7 @@ These new activities should provide unique Sugarizer features:
 
 - Sugarizer look & feel: use of Sugar toolbar and palette
 - Sugarizer storage: load/save content into the Journal
-- Network integration: integrate Sugarizer presence to share the activity on the network so multiple users could play together
+- Network integration: integrate Sugarizer presence to share the activity on the network so that multiple users could play together
 - Responsive: content should adapt to any screen size, a fullscreen button should allow to mask the toolbar for smaller screens
 - Multi-device support: should work on any browser (Chrome, Firefox, Safari) and any platform (Android, iOS, Windows, Linux, MacOS) supported by Sugarizer
 - Tutorial: an integrated documentation should be integrated to explain each feature of the activity
