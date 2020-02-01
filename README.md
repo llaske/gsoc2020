@@ -199,3 +199,44 @@ Some other features could be added to this list depending of feedbacks on the fi
 - Learn about [Kubernetes](https://kubernetes.io/) and complete the [Kubernetes tutorial](https://kubernetes.io/docs/tutorials/)
 
 ------------
+
+## Sugarizer Schoolbox - Revisited
+
+**Prerequisites**
+
+- Experience on RasperryPI
+- Experience with Ansible
+
+**Description**
+
+[Sugarizer School Box](https://github.com/llaske/sugarizer-school-box) is a packaged image of Sugarizer Server for the Raspberry Pi.
+
+![](images/sugarizer-school-box.jpg)
+
+This package provide an image for Raspberry Pi that could be flashed on a sd card that could automatically start a Sugarizer Server at boot and displays Sugarizer client on the Pi. The server is be accessible by other devices from the local network. So the teacher has just to plug the RaspberryPI to expose a WiFi and the Sugarizer Server API/WebApp. So any computer connected to this WiFi could use Sugarizer Server WebApp and any tablet with Sugarizer App connected to this WiFi could benefit to collaboration, presence and backup its content on the server.
+
+Sugarizer School Box was developed during GSoC 2018 but is currently deprecated due to difficulty to maintain underlying technologies.
+
+The goal of the Sugarizer School Box - revisited project is to rethink this project using [Ansible](https://www.ansible.com/) technology. Ansible will provide an easy way to maintain the package and to deploy it on any computer - not only a RaspberryPI. Plus, the [IIAB](https://github.com/iiab/iiab) project already include an Ansible package to deploy Sugarizer so we could rely on an active existing community.
+
+
+**Project Tasks**
+
+- Create an Ansible package to install a RaspberryPI with a WiFi hotspot and a DNS
+- Create an Ansible package to install Sugarizer Server and Sugarizer
+- Generate and test these packages on a RaspberryPI 3 and a RaspberryPI 4, try to connect to Sugarizer from a computer
+- Create a ready to flash image for a RaspberryPI 3 and for a RaspberryPI 4
+- Create a script to easily update the packages for futures version of Sugarizer and Sugarizer Server
+
+Some other features could be added to this list depending of feedbacks on the field.
+
+**Fist step to start:**
+
+- Complete the [Sugarizer activity development tutorial](https://github.com/llaske/sugarizer/blob/dev/docs/tutorial.md) to understand how Sugarizer work
+- Install manually [Sugarizer Server](https://github.com/llaske/sugarizer-server/tree/dev) and test it
+- Learn about [Ansible](https://www.ansible.com/) and complete the [Ansible tutorial](https://www.ansible.com/resources/get-started)
+- Install [IIAB](https://github.com/iiab/iiab) and test use of Sugarizer throught IIAB
+- Study the way of working of [IIAB](https://github.com/iiab/iiab) Ansible packages
+
+------------
+
