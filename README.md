@@ -200,7 +200,7 @@ Some other features could be added to this list depending of feedbacks on the fi
 
 ------------
 
-## Sugarizer Schoolbox - Revisited
+## Sugarizer School Box - Revisited
 
 **Prerequisites**
 
@@ -239,4 +239,3 @@ Some other features could be added to this list depending of feedbacks on the fi
 - Study the way of working of [IIAB](https://github.com/iiab/iiab) Ansible packages
 
 ------------
-
